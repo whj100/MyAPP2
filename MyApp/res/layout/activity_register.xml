@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/zhuce_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/back2" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/xingx"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yuan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="五星车联网"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="fill_parent"
+				android:layout_height="45dp"
+                android:background="#E47A75"
+                android:hint="请输入手机号码"
+                android:paddingLeft="5dp"
+                android:phoneNumber="true"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/et_pwdone"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="#E47A75"
+                android:hint="请输入密码"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_pwdtwo"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="#E47A75"
+                android:hint="请再次输入密码"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxHeight="45dp"
+                android:paddingLeft="5dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/et_msgyzm"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1.5"
+                android:background="#E47A75"
+                android:hint="短信验证码"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/tv_send"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#E47A75"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="发送短信到手机"
+                android:textColor="@color/white"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_btn_register"
+            android:gravity="center"
+            android:text="立即注册"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

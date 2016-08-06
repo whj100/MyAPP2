@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.wuxing.activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <com.wuxing.views.CircleImageView
+            android:id="@+id/iv_headimg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/add_people"
+            app:border_color="#7bc9f6"
+            app:border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tv_groupname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_headimg"
+            android:text="我的车队" />
+    </RelativeLayout>
+
+</LinearLayout>

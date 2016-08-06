@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="app_name">记录仪</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_name_hint">请输入账号</string>
+    <string name="login_pwd_hint">请输入密码</string>
+    <string name="login_btn">登录</string>
+    <string name="login_savepwd">记住密码</string>
+    <string name="forget_password">记住密码</string>
+    <string name="login_reg1">还没有账号？</string>
+    <string name="login_reg2">快去注册吧！</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map_home">MapHomeActivity</string>
+    <string name="app_id">e67a8862549b97b2aa9d301c913e78b3</string>
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="intell_bd_title">智能播报</string>
+    <string name="title_activity_lu_xian">LuXianActivity</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_select_start_end">SelectStartEndActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_start_end">StartEndActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_play_video">PlayVideoActivity</string>
+
+</resources>
